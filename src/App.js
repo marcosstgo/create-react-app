@@ -11,33 +11,26 @@ class App extends Component {
 
           <form name="contact" method="POST" data-netlify="true">
 <p>
-  <label>Your Name: <input type="text" name="name" /></label>
+  <label>Nombre: <input type="text" name="name" /></label>
 </p>
 <p>
-  <label>Your Email: <input type="email" name="email" /></label>
+  <label>Correo Electrónico: <input type="email" name="email" /></label>
 </p>
 <p>
-  <label>Your Role: <select name="role[]" multiple>
-    <option value="leader">Leader</option>
-    <option value="follower">Follower</option>
+  <label>Rol: <select name="role[]" multiple>
+    <option value="leader">Líder</option>
+    <option value="follower">Seguidor(a)</option>
   </select></label>
 </p>
 <p>
-  <label>Message: <textarea name="message"></textarea></label>
+  <label>Mensaje: <textarea name="message"></textarea></label>
 </p>
 <p>
-  <button type="submit">Send</button>
+  <button type="submit">Enviar</button>
 </p>
 </form>
-          
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+
+
         </header>
       </div>
     );
