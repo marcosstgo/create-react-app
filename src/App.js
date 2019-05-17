@@ -8,28 +8,19 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
-          <form name="contact" method="POST" data-netlify="true">
 <p>
+  <form name="contact" method="POST" data-netlify="true">
   <label>Nombre: <input type="text" name="name" /></label>
-</p>
-<p>
   <label>Correo Electrónico: <input type="email" name="email" /></label>
-</p>
-<p>
   <label>Rol: <select name="role[]" multiple>
-    <option value="leader">Líder</option>
-    <option value="follower">Seguidor(a)</option>
+  <option value="leader">Líder</option>
+  <option value="follower">Seguidor(a)</option>
   </select></label>
-</p>
-<p>
   <label>Mensaje: <textarea name="message"></textarea></label>
-</p>
-<p>
   <button type="submit">Enviar</button>
-</p>
-</form>
 
+</form>
+</p>
 
         </header>
       </div>
