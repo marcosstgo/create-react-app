@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
+
           <form name="contact" method="POST" data-netlify="true">
 <p>
   <label>Your Name: <input type="text" name="name" /></label>
@@ -29,7 +29,7 @@ class App extends Component {
   <button type="submit">Send</button>
 </p>
 </form>
-          </p>
+          
           <a
             className="App-link"
             href="https://reactjs.org"
