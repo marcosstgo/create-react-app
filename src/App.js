@@ -8,7 +8,6 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-<p>
 <form name="contact" method="POST" data-netlify="true">
 </p>
 <p>
@@ -28,7 +27,7 @@ class App extends Component {
   <button type="submit">Enviar</button>
 </p>
 </form>
-</p>
+
 
         </header>
       </div>
